@@ -3,6 +3,8 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.awt.Point;
+
 public class PointTest {
 
     @Test
