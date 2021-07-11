@@ -6,12 +6,10 @@ public class Max {
     }
 
     public static int max(int a, int b, int c) {
-        int max = max(a, b);
-        return max > c ? max : c;
+        return max(max(a, b), c);
     }
 
     public static int max(int a, int b, int c, int d) {
-        int max = max(a, b, c);
-        return max > d ? max : d;
+        return max(max(max(a, b), c), d);
     }
 }
